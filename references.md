@@ -15,7 +15,7 @@ J Big Data 11, 33 (2024). https://doi.org/10.1186/s40537-024-00886-w
    Iman Sharafaldin, Arash Habibi Lashkari, and Ali A. Ghorbani, “Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic
    Characterization”, 4th International Conference on Information Systems Security and Privacy (ICISSP), Portugal, January 2018. https://www.unb.ca/cic/datasets/ids-2017.html
 
-6. IoT-23 Dataset:  
-   
+6. IoT-23 Dataset (after processing):  
+   https://www.kaggle.com/datasets/vaivaib/iot-sensor
 
 
