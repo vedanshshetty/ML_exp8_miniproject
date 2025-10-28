@@ -438,15 +438,14 @@ class IntrusionDetectionPipeline:
 # ------------------ Run as script for IoT-23 ------------------
 if __name__ == "__main__":
     # Path to your IoT-23 cleaned CSV
-    dataset_csv = "iot23_cleaned.csv"
+    dataset_csv = "merged_zeek_data.csv"
 
     # Load the dataset
     print(f"Loading dataset: {dataset_csv}")
-    df = pd.read_csv(dataset_csv)
-
-    # Basic sanity checks
-    print("Dataset shape:", df.shape)
-    print(df['label'].value_counts())
+    
+    #df = pd.read_csv(dataset_csv)
+    df = pd.read_csv(dataset_csv, sep=r'\s+', engine='python')
+    print(df.columns)
 
     # Optional: drop non-numeric / non-essential columns
     df = df.drop(columns=['id.orig_h', 'id.resp_h'], errors='ignore')
@@ -483,3 +482,4 @@ if __name__ == "__main__":
             print(f"  Recall:    {stats['recall']:.4f}")
             print(f"  F1 Score:  {stats['f1']:.4f}")
             print(f"  ROC AUC:   {stats['roc']:.4f}")
+
