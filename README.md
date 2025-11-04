@@ -24,7 +24,7 @@ On a high level: It implements a complete pipeline integrating **unsupervised cl
 
 ---
 
-## 🧮 Pipeline Overview
+##🖇️ Pipeline Overview
 
 The intrusion detection process follows **eight key stages**, from raw data cleaning to final evaluation:
 
