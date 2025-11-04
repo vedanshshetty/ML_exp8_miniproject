@@ -17,5 +17,7 @@ J Big Data 11, 33 (2024). https://doi.org/10.1186/s40537-024-00886-w
 
 6. IoT-23 Dataset (after processing):  
    https://www.kaggle.com/datasets/vaivaib/iot-sensor
+   original:
+   https://www.stratosphereips.org/datasets-iot23
 
 
