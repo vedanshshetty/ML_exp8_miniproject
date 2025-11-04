@@ -6,6 +6,7 @@ oversampling, stacking feature embedding
 and feature extraction**.
 
 ---
+![Methodology Reproduced](images/methodology.png)
 
 ## 1. Data Preprocessing
 
@@ -86,8 +87,8 @@ Models are compared using:
 
 ## 9. Experimental Setup
 
-- **Datasets**: IoT-23, UNSW-NB15, and CIC-IDS2017.  
-- **Environment**: Python 3.10+, scikit-learn, XGBoost, imbalanced-learn.  
+- **Datasets**: IoT-23, UNSW-NB15, and IoT-23.  
+- **Environment**: Python 3.10+, scikit-learn, XGBoost, imbalanced-learn, etc refer: requirements.txt.
 - **Validation**: Repeated experiments with random seed control (`random_state=42`).
 
 ---
