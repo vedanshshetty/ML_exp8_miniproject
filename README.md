@@ -172,6 +172,8 @@ python intrusion_detection_pipeline.py
 | Extra Trees   | 0.97     | 0.97      | 0.97   | 0.97     | 0.98    |
 | XGBoost       | 0.99     | 0.99      | 0.99   | 0.99     | 0.99    |
 
+See results.md for full results
+
 
 
 
