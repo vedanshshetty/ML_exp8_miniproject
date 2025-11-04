@@ -1,6 +1,9 @@
 #  Methodology: Intrusion Detection using Random Oversampling (RO) Stacked Feature Engineering (SFE) and Feature Extraction.
 
-This document details the **methodological framework** and **data processing pipeline** used in reproducing the research paper on **Stacked Feature Engineering for Intrusion Detection**.
+This document details the **methodological framework** and **data processing pipeline** used in reproducing the research paper on **Machine learning‑based network intrusion
+detection for big and imbalanced data using
+oversampling, stacking feature embedding
+and feature extraction**.
 
 ---
 
